@@ -1,0 +1,37 @@
+{
+  "name": "pico8-popts",
+  "version": "8.8.8",
+  "description": "Merge your lucky pico8 lua",
+  "main": "dist/main.js",
+  "files": [
+    "bin",
+    "dist",
+    "README.md"
+  ],
+  "bin": {
+    "pico8-popts": "bin/pico8-popts.js"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "lint": "eslint './src/**/*.{ts,tsx}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/yargs": "^17.0.33",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "eslint": "^9.22.0",
+    "globals": "^16.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.26.1"
+  },
+  "dependencies": {
+    "@types/commander": "^2.12.0",
+    "commander": "^13.1.0"
+  }
+}
