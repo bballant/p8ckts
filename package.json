@@ -3,6 +3,9 @@
   "version": "8.8.8",
   "description": "Merge your lucky pico8 lua",
   "main": "dist/main.js",
+  "bin": {
+    "pico8-popts": "dist/main.js"
+  },
   "files": [
     "bin",
     "dist",
