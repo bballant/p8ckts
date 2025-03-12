@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+// for running as npx package after building
 import { Command } from 'commander';
 const program = new Command();
 program
