@@ -8,9 +8,6 @@
     "dist",
     "README.md"
   ],
-  "bin": {
-    "pico8-popts": "bin/pico8-popts.js"
-  },
   "scripts": {
     "build": "tsc --build",
     "lint": "eslint './src/**/*.{ts,tsx}'"
