@@ -4,6 +4,7 @@ const getRandomElement = (arr) => {
     const randomIndex = Math.floor(Math.random() * arr.length);
     return arr[randomIndex];
 };
+console.log("Using node.js version:", process.version);
 console.log(process.argv);
 if (process.argv.length < 3) {
     console.error("Please provide a list of strings.");

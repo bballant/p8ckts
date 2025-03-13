@@ -8,13 +8,5 @@
   "bin": {
     "pico8-popts": "pico8-popts/dist/main.js",
     "randomizer": "randomizer/dist/main.js"
-  },
-  "dependencies": {
-    "pico8-popts": "file:./pico8-popts",
-    "randomizer": "file:./randomizer"
-  },
-  "bundledDependencies": [
-    "pico8-popts",
-    "randomizer"
-  ]
+  }
 }

@@ -6,6 +6,7 @@ const getRandomElement = (arr: string[]): string | undefined => {
     return arr[randomIndex];
 };
 
+console.log("Using node.js version:", process.version);
 console.log(process.argv);
 
 if (process.argv.length < 3) {
