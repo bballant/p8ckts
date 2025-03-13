@@ -4,11 +4,17 @@
   "license": "",
   "version": "8.8.8",
   "private": true,
-  "workspaces": ["pico8-popts"],
+  "workspaces": ["pico8-popts", "randomizer"],
   "bin": {
-    "pico8-popts": "pico8-popts/dist/main.js"
+    "pico8-popts": "pico8-popts/dist/main.js",
+    "randomizer": "randomizer/dist/main.js"
+  },
+  "dependencies": {
+    "pico8-popts": "file:./pico8-popts",
+    "randomizer": "file:./randomizer"
   },
   "bundledDependencies": [
-    "pico8-popts"
+    "pico8-popts",
+    "randomizer"
   ]
 }
