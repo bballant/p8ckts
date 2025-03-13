@@ -1,0 +1,14 @@
+{
+  "name": "ts",
+  "author": "",
+  "license": "",
+  "version": "8.8.8",
+  "private": true,
+  "workspaces": ["pico8-popts"],
+  "bin": {
+    "pico8-popts": "pico8-popts/dist/main.js"
+  },
+  "dependencies": {
+    "pico8-popts": "file:./pico8-popts"
+  }
+}
