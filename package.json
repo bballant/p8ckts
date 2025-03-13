@@ -8,7 +8,7 @@
   "bin": {
     "pico8-popts": "pico8-popts/dist/main.js"
   },
-  "dependencies": {
-    "pico8-popts": "file:./pico8-popts"
-  }
+  "bundledDependencies": [
+    "pico8-popts"
+  ]
 }
