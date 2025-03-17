@@ -12,6 +12,7 @@ export default [
   {rules: {
     'arrow-body-style': ['warn', 'as-needed'],
     'prefer-arrow-callback': ['warn', { allowNamedFunctions: false }],
-    'func-style': ['warn', 'expression'],
+    // requires function declarations like const foo = () =>
+    /** 'func-style': ['warn', 'expression'],**/
   }}
 ];
