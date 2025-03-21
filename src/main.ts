@@ -53,8 +53,8 @@ async function processP8File(p8Path: string, outputPath: string) {
 }
 
 program
-    .name('pico8-popts')
-    .description('Simple "compiler" for pico-8 programs')
+    .name('p8kts')
+    .description('Simple pre-processor for pico-8 programs')
     .version('0.0.1')
     .requiredOption('-p, --p8 <my-program.p8>', 'The .p8 file to process')
     .option('-o, --out <output>', 'The output file, defaults to `./my-program-full.p8`')
